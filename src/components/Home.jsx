@@ -3,27 +3,29 @@ import styled, { createGlobalStyle } from "styled-components";
 import { Link } from 'react-router-dom';
 import { FaPlay } from 'react-icons/fa';
 import Nav from "./Nav";
-import { motion } from 'framer-motion'
+import LogoP from "../images/logo.png";
+import CarP from "../images/benzcar.png";
+import Bg from "../images/bg.jpg"
 
 
 function Home() {
   return (
-    <motion.div initial={{ scaleY: 0 }} animate={{ scaleY: 1 }} exit={{ scaleY: 0 }} transition={{ duration: 0.4 }}>
+    <>
       <GlobalStyle />
       <Body>
         <Nav />
         <Main>
-          <Logo src="/images/logo.png" alt="logo" />
-          <Car src="/images/benz car.png" alt="benz car" />
+          <Logo src={LogoP} alt="logo" />
+          <Car src={CarP} alt="benz car" />
           <Button to="/cars">Explore</Button>
         </Main>
         <Info>
           <h1>A little Info</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus incidunt possimus nemo asperiores ipsam ex saepe libero necessitatibus molestias, beatae ullam tenetur eligendi debitis id reprehenderit minus amet architecto. Doloribus?</p>
-          <Video to="/video"><FaPlay style={{ width: "2em", height: "2em", color: "white" }} /></Video>
+          <Video style={{ backgroundImage: `url(${Bg})` }} to="/video"><FaPlay style={{ width: "2em", height: "2em", color: "white" }} /></Video>
         </Info>
       </Body>
-    </motion.div>
+    </>
   );
 };
 
@@ -61,7 +63,6 @@ animation: load 0.5s ease-in-out forwards;
   display:flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/images/bg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

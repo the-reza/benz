@@ -2,6 +2,7 @@ import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import Nav from './Nav'
 import { motion } from 'framer-motion'
+import VideoB from "../videos/trailer.mp4"
 
 function VideoP() {
       return (
@@ -10,7 +11,7 @@ function VideoP() {
                   <Nav />
                   <BodyV>
 
-                        <Video controls src="/videos/trailer.mp4"></Video>
+                        <Video controls src={VideoB}></Video>
                   </BodyV>
             </motion.div>
       )
@@ -32,7 +33,6 @@ justify-content: center;
 
 const GlobalStyle = createGlobalStyle`
   *{
-
     margin: 0;
     padding: 0;
     box-sizing:border-box;

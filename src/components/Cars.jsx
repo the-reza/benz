@@ -2,6 +2,12 @@ import React from 'react'
 import styled, { createGlobalStyle } from "styled-components"
 import Nav from './Nav';
 import { motion } from "framer-motion"
+import Car1 from "../images/1.png"
+import Car2 from "../images/2.png"
+import Car3 from "../images/3.png"
+import Car4 from "../images/4.png"
+import Car5 from "../images/5.png"
+import Car6 from "../images/6.png"
 
 function Cars() {
       return (
@@ -10,32 +16,32 @@ function Cars() {
                   <GlobalStyle />
                   <MainCars>
                         <Card>
-                              <img src="/images/1.png" alt="benz car" />
+                              <img src={Car1} alt="benz car" />
                               <h2>Mercedes Benz</h2>
                               <p>Best Car In The World</p>
                         </Card>
                         <Card>
-                              <img src="/images/2.png" alt="benz car" />
+                              <img src={Car2} alt="benz car" />
                               <h2>Mercedes Benz</h2>
                               <p>Best Car In The World</p>
                         </Card>
                         <Card>
-                              <img src="/images/3.png" alt="benz car" />
+                              <img src={Car3} alt="benz car" />
                               <h2>Mercedes Benz</h2>
                               <p>Best Car In The World</p>
                         </Card>
                         <Card>
-                              <img src="/images/4.png" alt="benz car" />
+                              <img src={Car4} alt="benz car" />
                               <h2>Mercedes Benz</h2>
                               <p>Best Car In The World</p>
                         </Card>
                         <Card>
-                              <img src="/images/5.png" alt="benz car" />
+                              <img src={Car5} alt="benz car" />
                               <h2>Mercedes Benz</h2>
                               <p>Best Car In The World</p>
                         </Card>
                         <Card>
-                              <img src="/images/6.png" alt="benz car" />
+                              <img src={Car6} alt="benz car" />
                               <h2>Mercedes Benz</h2>
                               <p>Best Car In The World</p>
                         </Card>
