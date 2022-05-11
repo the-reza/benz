@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/benz/static/js/main.b25325ee.js",
+    "main.js": "/benz/static/js/main.9908f5cc.js",
     "static/media/trailer.mp4": "/benz/static/media/trailer.f09c16953a510e3cac89.mp4",
     "static/media/5.png": "/benz/static/media/5.c8d846fba041951ec147.png",
     "static/media/benzcar.png": "/benz/static/media/benzcar.9455a31efaf69a04daf4.png",
@@ -12,9 +12,9 @@
     "static/media/3.png": "/benz/static/media/3.130831855dd837cf0099.png",
     "static/media/logo.png": "/benz/static/media/logo.2d859cb425128a9dc77a.png",
     "index.html": "/benz/index.html",
-    "main.b25325ee.js.map": "/benz/static/js/main.b25325ee.js.map"
+    "main.9908f5cc.js.map": "/benz/static/js/main.9908f5cc.js.map"
   },
   "entrypoints": [
-    "static/js/main.b25325ee.js"
+    "static/js/main.9908f5cc.js"
   ]
 }
