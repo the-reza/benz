@@ -5,15 +5,15 @@ import styled from 'styled-components';
 
 
 function Nav() {
-      return (
-            <>
-                  <NavMain>
-                        <HomePage to="/">Go To The HomePage<FaHome style={{ width: "1.5em", height: "1.5em", color: "white", marginLeft: "20px" }} /></HomePage>
-                        <Cars to="/cars">See The Cars Here<FaCarSide style={{ width: "1.5em", height: "1.5em", color: "white", }} /></Cars>
-                        <Play to="/video">See The Trailer Here<FaPlay style={{ width: "1.2em", height: "1.2em", color: "white", }} /></Play>
-                  </NavMain>
-            </>
-      )
+  return (
+    <>
+      <NavMain>
+        <HomePage to="/benz">Go To The HomePage<FaHome style={{ width: "1.5em", height: "1.5em", color: "white", marginLeft: "20px" }} /></HomePage>
+        <Cars to="/cars">See The Cars Here<FaCarSide style={{ width: "1.5em", height: "1.5em", color: "white", }} /></Cars>
+        <Play to="/video">See The Trailer Here<FaPlay style={{ width: "1.2em", height: "1.2em", color: "white", }} /></Play>
+      </NavMain>
+    </>
+  )
 }
 
 const NavMain = styled.div`

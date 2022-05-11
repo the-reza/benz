@@ -10,7 +10,7 @@ function App() {
       return (
             <AnimatePresence exitBeforeEnter initial={false}>
                   <Routes location={Location} key={Location.pathname}>
-                        <Route exact path="/" element={<Home />} />
+                        <Route exact path="/benz" element={<Home />} />
                         <Route path="/video" element={<VideoP />} />
                         <Route path="/cars" element={<Cars />} />
                   </Routes>
